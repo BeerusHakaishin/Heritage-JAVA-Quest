@@ -21,21 +21,21 @@ public abstract class Vehicule{
 		return this.brandName;
 	}
 	
-	public double getKm() {
+	public int getKm() {
 		return this.kilometers;
 	}
 	
-	public double gethorsePowered() {
+	public int gethorsePowered() {
 		return this.horsePowered;
 	}
 	
-	public double getPrice() {
+	public int getPrice() {
 		return this.price;
 	}
 	
 	// Setter 
 	
-	public void setBrandName(String brandName) {
+	public void setBrandName() {
 		this.brandName = brandName;
 	}
 	
